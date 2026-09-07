@@ -44,3 +44,5 @@ outputs/
 *.png
 *.jpg
 *.jpeg
+# 唯一允许发布的图：由仓库合成样例重新生成并审查。
+!docs/assets/sales_profit_line.png
