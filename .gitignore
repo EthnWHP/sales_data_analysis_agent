@@ -1,0 +1,46 @@
+# 本地凭据与配置
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+secrets*.json
+# Python、环境和编辑器
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.idea/
+.vscode/
+.DS_Store
+build/
+dist/
+*.egg-info/
+# 本地数据、会话、数据库、输出及尚未审查的个人辅助说明
+SKILL.md
+data/
+datasets/
+history/
+logs/
+outputs/
+*.log
+*.sqlite*
+*.db
+*.rdb
+*.aof
+*.csv
+!sales.csv
+*.xlsx
+*.xls
+*.zip
+# 现有图月份按字母排序，默认不作为公开演示产物。
+*.png
+*.jpg
+*.jpeg
